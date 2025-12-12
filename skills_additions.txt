@@ -1,0 +1,116 @@
+<!-- Add to skills.html before Professional Competencies section -->
+
+<!-- Version Control & Documentation -->
+<div class="skill-category-bar">
+    <h2 class="skill-bar-title">Version Control & Documentation</h2>
+    
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>Git & GitHub</span>
+            <span class="skill-years">4 years</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 85%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>LaTeX</span>
+            <span class="skill-years">3 years</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 80%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>Jupyter Notebooks</span>
+            <span class="skill-years">3 years</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 75%"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Manufacturing & Prototyping -->
+<div class="skill-category-bar">
+    <h2 class="skill-bar-title">Manufacturing & Prototyping</h2>
+    
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>3D Printing (FDM, SLA)</span>
+            <span class="skill-years">4 years</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 85%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>CNC Machining</span>
+            <span class="skill-years">2 years</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 65%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>Composite Layup</span>
+            <span class="skill-years">1 year</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 55%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>Welding & Fabrication</span>
+            <span class="skill-years">2 years</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 60%"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Optimization & Machine Learning -->
+<div class="skill-category-bar">
+    <h2 class="skill-bar-title">Optimization & Machine Learning</h2>
+    
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>Topology Optimization</span>
+            <span class="skill-years">2 years</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 80%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>Scipy Optimization</span>
+            <span class="skill-years">3 years</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 75%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar-item">
+        <div class="skill-bar-label">
+            <span>Genetic Algorithms</span>
+            <span class="skill-years">1 year</span>
+        </div>
+        <div class="skill-bar-track">
+            <div class="skill-bar-fill" style="width: 60%"></div>
+        </div>
+    </div>
+</div>

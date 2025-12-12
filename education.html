@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education | Vandan Gajjar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Download Resume Button -->
+    <a href="#" class="download-resume" download>
+        <span>↓</span> Resume
+    </a>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-name">Vandan Gajjar</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html" class="active">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="personal.html">Personal</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="full-width">
+        <div class="page-header">
+            <h1>Education</h1>
+        </div>
+
+        <div class="education-content">
+            <h2>UC San Diego</h2>
+            <p class="degree">B.S. Aerospace Engineering</p>
+            <p class="dates">2021 - 2025</p>
+
+            <!-- Fixed Tabs at Top -->
+            <div class="education-tabs-fixed">
+                <button class="edu-tab active" data-category="computational">Computational & FEA</button>
+                <button class="edu-tab" data-category="fluids">Fluids & Aero</button>
+                <button class="edu-tab" data-category="propulsion">Propulsion</button>
+                <button class="edu-tab" data-category="dynamics">Dynamics & Controls</button>
+                <button class="edu-tab" data-category="thermo">Thermo & Heat</button>
+                <button class="edu-tab" data-category="materials">Materials & Structures</button>
+                <button class="edu-tab" data-category="experimental">Experimental</button>
+                <button class="edu-tab" data-category="space">Space Systems</button>
+                <button class="edu-tab" data-category="programming">Programming & Math</button>
+            </div>
+
+            <!-- Scrollable Content Area -->
+            <div class="education-content-area">
+                <div class="edu-content-panel active" data-category="computational">
+                    <h3 class="content-category-title">Computational Methods & FEA</h3>
+                    <div class="course-grid">
+                        <div class="course-item">
+                            <strong>MAE 107</strong> Computational Methods for Engineers
+                            <div class="course-desc">Scientific computing algorithms, iterative methods, systems of
+                                linear equations, numerical solution of ODEs.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 133</strong> Finite Element Methods in MAE
+                            <div class="course-desc">Development of stiffness and mass matrices, variational principles,
+                                static/dynamic analysis, computer codes for FEA.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>SE 160A</strong> Aerospace Structural Mechanics I
+                            <div class="course-desc">Stress and strain concepts, Hooke's Law, axial loading, torsion,
+                                beam bending, deflections.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>SE 160B</strong> Aerospace Structural Mechanics II
+                            <div class="course-desc">3-D stress/strain analysis, linear elasticity, stress
+                                concentration, failure criteria, energy methods.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 185</strong> Computational Fluid Mechanics
+                            <div class="course-desc">Numerical methods for solving fluid flow equations, discretization
+                                techniques, CFD applications.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-content-panel" data-category="fluids">
+                    <h3 class="content-category-title">Fluid Mechanics & Aerodynamics</h3>
+                    <div class="course-grid">
+                        <div class="course-item">
+                            <strong>MAE 101A</strong> Introductory Fluid Mechanics
+                            <div class="course-desc">Fluid statics and kinematics, conservation laws, Bernoulli
+                                equation, potential flows, dimensional analysis.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 101B</strong> Advanced Fluid Mechanics
+                            <div class="course-desc">Laminar/turbulent flow, pipe flow, boundary layers, separation,
+                                drag and lift, compressible flow.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 104</strong> Aerodynamics
+                            <div class="course-desc">Flow around wings and bodies at subsonic/supersonic speeds,
+                                thin-wing theory, aircraft design applications.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-content-panel" data-category="propulsion">
+                    <h3 class="content-category-title">Propulsion</h3>
+                    <div class="course-grid">
+                        <div class="course-item">
+                            <strong>MAE 113</strong> Fundamentals of Propulsion
+                            <div class="course-desc">Compressible flow and combustion for propulsion, gas turbine
+                                analysis, rocket propulsion fundamentals.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 114</strong> Space Propulsion
+                            <div class="course-desc">Liquid/solid rocket engines, electric propulsion, nuclear
+                                propulsion, launch vehicle technologies.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-content-panel" data-category="dynamics">
+                    <h3 class="content-category-title">Dynamics & Control Systems</h3>
+                    <div class="course-grid">
+                        <div class="course-item">
+                            <strong>MAE 130</strong> Advanced Vibrations
+                            <div class="course-desc">Harmonically excited vibrations, multi-DOF systems, continuous
+                                systems, Hamilton's equations, impulse response.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 142</strong> Dynamics and Control of Aerospace Vehicles
+                            <div class="course-desc">Vehicle dynamics in space/air, stability analysis, flight theory,
+                                optimal state-space control, autopilot design.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 143A</strong> Signals and Systems
+                            <div class="course-desc">Dynamic modeling, differential equations, Laplace/z-transforms,
+                                transfer functions, Fourier analysis.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 143B</strong> Linear Control
+                            <div class="course-desc">Feedback systems, PID controllers, Ziegler-Nichols tuning, root
+                                locus, Bode/Nyquist diagrams, compensators.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 30B</strong> Dynamics and Vibrations
+                            <div class="course-desc">Particle/rigid body kinematics, Newton's laws, energy methods,
+                                vibration fundamentals.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-content-panel" data-category="thermo">
+                    <h3 class="content-category-title">Thermodynamics & Heat Transfer</h3>
+                    <div class="course-grid">
+                        <div class="course-item">
+                            <strong>MAE 11</strong> Thermodynamics
+                            <div class="course-desc">First and second laws, entropy, thermodynamic cycles, ideal gases,
+                                phase equilibrium.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 110</strong> Thermodynamic Systems
+                            <div class="course-desc">Power cycles with combustion engines, thermodynamics of mixtures,
+                                chemical equilibrium.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 101C</strong> Heat Transfer
+                            <div class="course-desc">Viscous heat-conducting flows, heat conduction, radiation, forced
+                                and free convection.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-content-panel" data-category="materials">
+                    <h3 class="content-category-title">Materials & Structures</h3>
+                    <div class="course-grid">
+                        <div class="course-item">
+                            <strong>MAE 21</strong> Aerospace Materials Science
+                            <div class="course-desc">Material properties, crystal structures, phase diagrams, mechanical
+                                behavior, aerospace applications.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 131A</strong> Solid Mechanics I
+                            <div class="course-desc">Stress and strain concepts, Hooke's Law, axial loading, torsion,
+                                beam bending, principal stresses, buckling.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-content-panel" data-category="experimental">
+                    <h3 class="content-category-title">Experimental Methods</h3>
+                    <div class="course-grid">
+                        <div class="course-item">
+                            <strong>MAE 170</strong> Experimental Techniques
+                            <div class="course-desc">Measurement principles, error analysis, signal processing, data
+                                acquisition, sensor technologies.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 175A</strong> Aerospace Engineering Laboratory
+                            <div class="course-desc">Hands-on experiments in aerodynamics, propulsion, structures,
+                                controls with data analysis and reporting.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-content-panel" data-category="space">
+                    <h3 class="content-category-title">Space Systems</h3>
+                    <div class="course-grid">
+                        <div class="course-item">
+                            <strong>MAE 180</strong> Orbital Mechanics
+                            <div class="course-desc">Two-body problem, orbital elements, orbit transfers, interplanetary
+                                trajectories, perturbations.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 180A</strong> Spacecraft Guidance I
+                            <div class="course-desc">Guidance and navigation for spacecraft, trajectory optimization,
+                                mission design, rendezvous.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 184</strong> Flight Simulation Techniques
+                            <div class="course-desc">Real-time simulation, hardware-in-the-loop, flight dynamics
+                                modeling, pilot-in-the-loop systems.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-content-panel" data-category="programming">
+                    <h3 class="content-category-title">Programming & Mathematics</h3>
+                    <div class="course-grid">
+                        <div class="course-item">
+                            <strong>MAE 8</strong> MATLAB Programming
+                            <div class="course-desc">MATLAB fundamentals, numerical computations, data visualization,
+                                algorithm development.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 105</strong> Mathematical Physics
+                            <div class="course-desc">Fourier series, PDEs, integral transforms for vibration, wave
+                                motion, heat conduction.</div>
+                        </div>
+                        <div class="course-item">
+                            <strong>MAE 150</strong> Computational Methods in Design
+                            <div class="course-desc">CAD analysis, design optimization, Monte Carlo methods, tolerance
+                                analysis, finite element fundamentals.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
